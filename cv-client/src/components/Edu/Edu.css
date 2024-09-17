@@ -1,0 +1,60 @@
+/* General container styling */
+div {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Heading styling */
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Label styling */
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Input field styling */
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]::placeholder,
+  input[type="date"]::placeholder {
+    color: #aaa;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto 0;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
